@@ -14,7 +14,7 @@ Rodior is a Flask-based application that converts text into audio files using th
 ### Installation
 1. Clone the repository: `git clone https://github.com/Wharkly47/Rodior.git`
 2. Install dependencies: `pip install -r requirements.txt`
-3. Run the application: `python app.py`
+3. Run the application: `python3 app.py`
 
 ## Usage
 1. Access the application through your browser at `http://localhost:5000`.
