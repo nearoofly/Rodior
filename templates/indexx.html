@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Générateur audio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <form action="/generate_audio" method="post">
+        <input type="text" name="text">
+        <input type="text" name="text">
+        <!-- Vous pouvez ajouter autant d'éléments input que vous le souhaitez -->
+        <input type="submit" value="Générer audio">
+    </form>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Téléchargements</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Vos fichiers audio sont prêts :</h1>
+        <div class="files-list">
+            {% for file in files %}
+                <a href="/download/{{ file }}">{{ file }}</a><br>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>
