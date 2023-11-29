@@ -28,6 +28,16 @@ Rodior is a Flask-based application that converts text into audio files using th
 - `templates/download.html`: HTML template for downloading audio files.
 - `output_*.mp3`: Generated audio files are saved here.
 
+...
+
+### Image
+![Nom de l'image](WIG/imrdior.png)
+
+### Donation
+[![Donate with PayPal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VOTRE_ID)
+
+
+
 ## Code Example
 ```python
 from flask import Flask, render_template, request, send_file
