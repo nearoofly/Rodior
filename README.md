@@ -31,7 +31,7 @@ Rodior is a Flask-based application that converts text into audio files using th
 ...
 
 ### Image
-![Nom de l'image](WIG/imrdior.png)
+![WIG](WIG/imrdior.png)
 
 ### Donation
 [![Donate with PayPal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=VOTRE_ID)
